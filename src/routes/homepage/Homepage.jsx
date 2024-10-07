@@ -4,6 +4,7 @@ import './homepage.css'
 export const Homepage = () => {
     return (
         <div className='homepage'>
+            <img src="/public/orbit.png" className="orbital" />
             <div className="left">
                 <h1>XENO AI</h1>
                 <h2>Feel the power of AI to supercharge your creativity and productivity</h2>
@@ -12,7 +13,12 @@ export const Homepage = () => {
             </div>
 
             <div className="right">
-
+                <div className="imgContainer">
+                    <div className="bgContainer">
+                        <div className="bg"></div>
+                    </div>
+                    <img src="/public/bot.png" className="bot" />
+                </div>
             </div>
         </div>
     )
