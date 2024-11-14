@@ -21,7 +21,13 @@
     .list {
         display: flex;
         flex-direction: column;
-        overflow: hidden;
+        flex-grow: 1; 
+        overflow-y: auto;
+        scrollbar-width: none;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
     }
 
     a {
